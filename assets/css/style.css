@@ -36,7 +36,6 @@
 
 
 
-
 /* VARIABLES */
 
 :root {
@@ -365,6 +364,35 @@ summary {
 /* style this one first and then use the subsequent ones in a cascading way (from general to specific) */
 
 @media (max-width: 779px) {
+  h2{
+    font-size: 3rem;
+  }
+
+  p{
+    /* paragraph style */
+  
+    text-align: left;
+    text-indent: 1rem;
+    font-family: 'IBM Plex Sans';
+    font-weight: medium;
+  
+    margin-left: 0rem;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    padding: 0.5 rem;
+  
+    color: #BDBE8D;
+    
+  }
+
+  .interview{
+    font-family:'IBM Plex Sans';
+    font-style: normal;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 2rem;
+  }
+
 
   /* your 'mobile' overriding css properties here */
 
