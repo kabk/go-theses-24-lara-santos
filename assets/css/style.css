@@ -27,9 +27,9 @@
 
 @font-face {
   font-family: 'IBM Plex Sans';
-  src: url('assets/fonts/FTT/IBMPlexSans-Regular.woff') format('woff'),
-  url('assets/fonts/FTT/IBMPlexSans-Medium.woff') format('woff'),
-  url('assets/fonts/FTT/IBMPlexSans-Light.woff') format('woff');
+  src: url('../fonts/FTT/IBMPlexSans-Regular.woff') format('woff'),
+  url('../fonts/FTT/IBMPlexSans-Medium.woff') format('woff'),
+  url('../fonts/FTT/IBMPlexSans-Light.woff') format('woff');
 }
 
 
@@ -320,7 +320,7 @@ summary {
   text-align: center;
   line-height: 2rem;
   position: relative;
-  display: inline;
+  display: none;
   box-shadow:  0 0 25px 25px #99251F;
 
 
